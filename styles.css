@@ -1,0 +1,116 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+header .logo {
+  font-size: 24px;
+}
+
+header nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.header-icons i {
+  color: #fff;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* Container */
+.container {
+  display: flex;
+  margin: 20px;
+}
+
+/* Sidebar */
+aside {
+  width: 20%;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.filter {
+  margin-bottom: 20px;
+}
+
+/* Product Grid */
+main {
+  width: 80%;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  width: 30%;
+  padding: 15px;
+  margin: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-card h3 {
+  margin: 10px 0;
+}
+
+.product-card p {
+  color: #e67e22;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  margin-top: 20px;
+}
+
+footer .social-icons i {
+  color: #fff;
+  margin: 0 10px;
+  cursor: pointer;
+}
